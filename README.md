@@ -3,6 +3,10 @@
 ## 🚀 Overview
 **Smart Knowledge Repository** is a comprehensive solution designed to streamline the management and organization of information. It serves as a centralized hub for storing, retrieving, and sharing knowledge, ensuring that users can access critical data efficiently.
 
+## Screenshots
+![alt text](image.png)
+![alt text](image-1.png)
+
 ## 🛠️ Tech Stack
 - **Frontend:** React.js
 - **Environment:** Node.js

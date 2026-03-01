@@ -53,7 +53,7 @@ User.hasMany(Document, { foreignKey: 'userId' });
 Document.belongsTo(User, { foreignKey: 'userId' });
 
 // Sync Database Schema to match models
-sequelize.sync({ alter: true })
+sequelize.sync({ alter: true }) // Temporarily set to true to fix schema mismatch
     .then(async () => {
         console.log('Database schema updated');
         

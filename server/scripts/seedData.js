@@ -30,6 +30,19 @@ const seedData = async () => {
             }
         });
 
+        // Create System User (if you prefer this email)
+        await User.findOrCreate({
+            where: { email: 'system@company.com' },
+            defaults: {
+                username: 'System Admin',
+                password: hashedPassword, // Same password: admin123
+                role: 'admin',
+                department: 'IT',
+                bio: 'System Maintenance Account',
+                expertise: ['DevOps', 'Maintenance']
+            }
+        });
+
         // 2. Create Profiles (Experts for Search)
         const profiles = [
             {
