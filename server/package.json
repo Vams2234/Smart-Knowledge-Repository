@@ -1,0 +1,34 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Smart Knowledge Repository Backend",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "jest",
+    "seed": "node services/seed.js"
+  },
+  "dependencies": {
+    "@langchain/core": "^0.3.17",
+    "@langchain/google-genai": "^0.1.0",
+    "axios": "^1.6.0",
+    "bcryptjs": "^2.4.3",
+    "cheerio": "^1.0.0-rc.12",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "joi": "^17.12.1",
+    "jsonwebtoken": "^9.0.2",
+    "langchain": "^0.3.0",
+    "multer": "^2.0.2",
+    "mysql2": "^3.9.1",
+    "natural": "^6.10.4",
+    "pdf-parse": "^1.1.1",
+    "puppeteer": "^19.11.1",
+    "redis": "^4.6.13",
+    "sequelize": "^6.37.1"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
